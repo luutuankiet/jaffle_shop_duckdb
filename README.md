@@ -60,16 +60,14 @@ Prerequisities: Python >= 3.5
 <summary>POSIX bash/zsh</summary>
 
 ```shell
-git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
+git clone https://github.com/luutuankiet/jaffle_shop_duckdb.git
 cd jaffle_shop_duckdb
 python3 -m venv venv
 source venv/bin/activate
-python3 -m pip install --upgrade pip
+python3 -m pip install
 python3 -m pip install -r requirements.txt
 source venv/bin/activate
 dbt build
-dbt docs generate
-dbt docs serve
 ```
 </details>
 
